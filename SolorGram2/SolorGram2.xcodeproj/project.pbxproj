@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4CB842129CF9E7C0040E48C /* SolorGram2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB842029CF9E7C0040E48C /* SolorGram2App.swift */; };
+		A4CB842329CF9E7C0040E48C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB842229CF9E7C0040E48C /* ContentView.swift */; };
+		A4CB842529CF9E7D0040E48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CB842429CF9E7D0040E48C /* Assets.xcassets */; };
+		A4CB842829CF9E7D0040E48C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CB842729CF9E7D0040E48C /* Preview Assets.xcassets */; };
+		A4CB843229CF9E7D0040E48C /* SolorGram2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB843129CF9E7D0040E48C /* SolorGram2Tests.swift */; };
+		A4CB843C29CF9E7D0040E48C /* SolorGram2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB843B29CF9E7D0040E48C /* SolorGram2UITests.swift */; };
+		A4CB843E29CF9E7D0040E48C /* SolorGram2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB843D29CF9E7D0040E48C /* SolorGram2UITestsLaunchTests.swift */; };
+		A4CB844C29CF9EC90040E48C /* PostAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB844B29CF9EC90040E48C /* PostAll.swift */; };
+		A4CB844F29CF9EE30040E48C /* SolarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB844E29CF9EE30040E48C /* SolarViewModel.swift */; };
+		A4CB845229CF9EF80040E48C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB845129CF9EF80040E48C /* ProfileView.swift */; };
+		A4CB845429CF9F040040E48C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB845329CF9F040040E48C /* HomeView.swift */; };
+		A4CB845929CFA0A20040E48C /* SquareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB845829CFA0A20040E48C /* SquareImage.swift */; };
+		A4CB845F29CFAF9E0040E48C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB845E29CFAF9E0040E48C /* Post.swift */; };
+		A4CB846129CFAFAA0040E48C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB846029CFAFAA0040E48C /* UserModel.swift */; };
+		A4CB846D29D013A00040E48C /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB846C29D013A00040E48C /* PostContent.swift */; };
+		A4CB847129D032ED0040E48C /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB847029D032ED0040E48C /* CameraPicker.swift */; };
+		A4CB847329D033470040E48C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB847229D033470040E48C /* ImagePicker.swift */; };
+		A4CB847B29D1617E0040E48C /* ShowPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB847A29D1617E0040E48C /* ShowPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4CB842E29CF9E7D0040E48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB841529CF9E7C0040E48C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB841C29CF9E7C0040E48C;
+			remoteInfo = SolorGram2;
+		};
+		A4CB843829CF9E7D0040E48C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4CB841529CF9E7C0040E48C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4CB841C29CF9E7C0040E48C;
+			remoteInfo = SolorGram2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4CB841D29CF9E7C0040E48C /* SolorGram2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolorGram2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB842029CF9E7C0040E48C /* SolorGram2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolorGram2App.swift; sourceTree = "<group>"; };
+		A4CB842229CF9E7C0040E48C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4CB842429CF9E7D0040E48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4CB842729CF9E7D0040E48C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4CB842D29CF9E7D0040E48C /* SolorGram2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolorGram2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB843129CF9E7D0040E48C /* SolorGram2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolorGram2Tests.swift; sourceTree = "<group>"; };
+		A4CB843729CF9E7D0040E48C /* SolorGram2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolorGram2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CB843B29CF9E7D0040E48C /* SolorGram2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolorGram2UITests.swift; sourceTree = "<group>"; };
+		A4CB843D29CF9E7D0040E48C /* SolorGram2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolorGram2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4CB844B29CF9EC90040E48C /* PostAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAll.swift; sourceTree = "<group>"; };
+		A4CB844E29CF9EE30040E48C /* SolarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarViewModel.swift; sourceTree = "<group>"; };
+		A4CB845129CF9EF80040E48C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A4CB845329CF9F040040E48C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4CB845829CFA0A20040E48C /* SquareImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareImage.swift; sourceTree = "<group>"; };
+		A4CB845E29CFAF9E0040E48C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A4CB846029CFAFAA0040E48C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A4CB846C29D013A00040E48C /* PostContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
+		A4CB847029D032ED0040E48C /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		A4CB847229D033470040E48C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A4CB847A29D1617E0040E48C /* ShowPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4CB841A29CF9E7C0040E48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB842A29CF9E7D0040E48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB843429CF9E7D0040E48C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4CB841429CF9E7C0040E48C = {
+			isa = PBXGroup;
+			children = (
+				A4CB841F29CF9E7C0040E48C /* SolorGram2 */,
+				A4CB843029CF9E7D0040E48C /* SolorGram2Tests */,
+				A4CB843A29CF9E7D0040E48C /* SolorGram2UITests */,
+				A4CB841E29CF9E7C0040E48C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CB841E29CF9E7C0040E48C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB841D29CF9E7C0040E48C /* SolorGram2.app */,
+				A4CB842D29CF9E7D0040E48C /* SolorGram2Tests.xctest */,
+				A4CB843729CF9E7D0040E48C /* SolorGram2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4CB841F29CF9E7C0040E48C /* SolorGram2 */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB842029CF9E7C0040E48C /* SolorGram2App.swift */,
+				A4CB845029CF9EEA0040E48C /* ViewModel */,
+				A4CB844D29CF9ED60040E48C /* Model */,
+				A4CB844A29CF9E960040E48C /* View */,
+				A4CB842429CF9E7D0040E48C /* Assets.xcassets */,
+				A4CB842629CF9E7D0040E48C /* Preview Content */,
+			);
+			path = SolorGram2;
+			sourceTree = "<group>";
+		};
+		A4CB842629CF9E7D0040E48C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB842729CF9E7D0040E48C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4CB843029CF9E7D0040E48C /* SolorGram2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB843129CF9E7D0040E48C /* SolorGram2Tests.swift */,
+			);
+			path = SolorGram2Tests;
+			sourceTree = "<group>";
+		};
+		A4CB843A29CF9E7D0040E48C /* SolorGram2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB843B29CF9E7D0040E48C /* SolorGram2UITests.swift */,
+				A4CB843D29CF9E7D0040E48C /* SolorGram2UITestsLaunchTests.swift */,
+			);
+			path = SolorGram2UITests;
+			sourceTree = "<group>";
+		};
+		A4CB844A29CF9E960040E48C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB842229CF9E7C0040E48C /* ContentView.swift */,
+				A4CB845129CF9EF80040E48C /* ProfileView.swift */,
+				A4CB845329CF9F040040E48C /* HomeView.swift */,
+				A4CB845729CF9FC30040E48C /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4CB844D29CF9ED60040E48C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB844B29CF9EC90040E48C /* PostAll.swift */,
+				A4CB845E29CFAF9E0040E48C /* Post.swift */,
+				A4CB846029CFAFAA0040E48C /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4CB845029CF9EEA0040E48C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB844E29CF9EE30040E48C /* SolarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4CB845729CF9FC30040E48C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4CB847229D033470040E48C /* ImagePicker.swift */,
+				A4CB847029D032ED0040E48C /* CameraPicker.swift */,
+				A4CB846C29D013A00040E48C /* PostContent.swift */,
+				A4CB845829CFA0A20040E48C /* SquareImage.swift */,
+				A4CB847A29D1617E0040E48C /* ShowPicker.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4CB841C29CF9E7C0040E48C /* SolorGram2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB844129CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2" */;
+			buildPhases = (
+				A4CB841929CF9E7C0040E48C /* Sources */,
+				A4CB841A29CF9E7C0040E48C /* Frameworks */,
+				A4CB841B29CF9E7C0040E48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolorGram2;
+			productName = SolorGram2;
+			productReference = A4CB841D29CF9E7C0040E48C /* SolorGram2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4CB842C29CF9E7D0040E48C /* SolorGram2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB844429CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2Tests" */;
+			buildPhases = (
+				A4CB842929CF9E7D0040E48C /* Sources */,
+				A4CB842A29CF9E7D0040E48C /* Frameworks */,
+				A4CB842B29CF9E7D0040E48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB842F29CF9E7D0040E48C /* PBXTargetDependency */,
+			);
+			name = SolorGram2Tests;
+			productName = SolorGram2Tests;
+			productReference = A4CB842D29CF9E7D0040E48C /* SolorGram2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4CB843629CF9E7D0040E48C /* SolorGram2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4CB844729CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2UITests" */;
+			buildPhases = (
+				A4CB843329CF9E7D0040E48C /* Sources */,
+				A4CB843429CF9E7D0040E48C /* Frameworks */,
+				A4CB843529CF9E7D0040E48C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB843929CF9E7D0040E48C /* PBXTargetDependency */,
+			);
+			name = SolorGram2UITests;
+			productName = SolorGram2UITests;
+			productReference = A4CB843729CF9E7D0040E48C /* SolorGram2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4CB841529CF9E7C0040E48C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A4CB841C29CF9E7C0040E48C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A4CB842C29CF9E7D0040E48C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4CB841C29CF9E7C0040E48C;
+					};
+					A4CB843629CF9E7D0040E48C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4CB841C29CF9E7C0040E48C;
+					};
+				};
+			};
+			buildConfigurationList = A4CB841829CF9E7C0040E48C /* Build configuration list for PBXProject "SolorGram2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4CB841429CF9E7C0040E48C;
+			productRefGroup = A4CB841E29CF9E7C0040E48C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4CB841C29CF9E7C0040E48C /* SolorGram2 */,
+				A4CB842C29CF9E7D0040E48C /* SolorGram2Tests */,
+				A4CB843629CF9E7D0040E48C /* SolorGram2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4CB841B29CF9E7C0040E48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB842829CF9E7D0040E48C /* Preview Assets.xcassets in Resources */,
+				A4CB842529CF9E7D0040E48C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB842B29CF9E7D0040E48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB843529CF9E7D0040E48C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4CB841929CF9E7C0040E48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB845929CFA0A20040E48C /* SquareImage.swift in Sources */,
+				A4CB844F29CF9EE30040E48C /* SolarViewModel.swift in Sources */,
+				A4CB847329D033470040E48C /* ImagePicker.swift in Sources */,
+				A4CB842329CF9E7C0040E48C /* ContentView.swift in Sources */,
+				A4CB845229CF9EF80040E48C /* ProfileView.swift in Sources */,
+				A4CB845429CF9F040040E48C /* HomeView.swift in Sources */,
+				A4CB845F29CFAF9E0040E48C /* Post.swift in Sources */,
+				A4CB847129D032ED0040E48C /* CameraPicker.swift in Sources */,
+				A4CB842129CF9E7C0040E48C /* SolorGram2App.swift in Sources */,
+				A4CB846D29D013A00040E48C /* PostContent.swift in Sources */,
+				A4CB847B29D1617E0040E48C /* ShowPicker.swift in Sources */,
+				A4CB846129CFAFAA0040E48C /* UserModel.swift in Sources */,
+				A4CB844C29CF9EC90040E48C /* PostAll.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB842929CF9E7D0040E48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB843229CF9E7D0040E48C /* SolorGram2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CB843329CF9E7D0040E48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CB843E29CF9E7D0040E48C /* SolorGram2UITestsLaunchTests.swift in Sources */,
+				A4CB843C29CF9E7D0040E48C /* SolorGram2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4CB842F29CF9E7D0040E48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB841C29CF9E7C0040E48C /* SolorGram2 */;
+			targetProxy = A4CB842E29CF9E7D0040E48C /* PBXContainerItemProxy */;
+		};
+		A4CB843929CF9E7D0040E48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4CB841C29CF9E7C0040E48C /* SolorGram2 */;
+			targetProxy = A4CB843829CF9E7D0040E48C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4CB843F29CF9E7D0040E48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4CB844029CF9E7D0040E48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4CB844229CF9E7D0040E48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SolorGram2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4CB844329CF9E7D0040E48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SolorGram2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4CB844529CF9E7D0040E48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolorGram2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolorGram2";
+			};
+			name = Debug;
+		};
+		A4CB844629CF9E7D0040E48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolorGram2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SolorGram2";
+			};
+			name = Release;
+		};
+		A4CB844829CF9E7D0040E48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolorGram2;
+			};
+			name = Debug;
+		};
+		A4CB844929CF9E7D0040E48C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uscyiya.SolorGram2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolorGram2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4CB841829CF9E7C0040E48C /* Build configuration list for PBXProject "SolorGram2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB843F29CF9E7D0040E48C /* Debug */,
+				A4CB844029CF9E7D0040E48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB844129CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB844229CF9E7D0040E48C /* Debug */,
+				A4CB844329CF9E7D0040E48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB844429CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB844529CF9E7D0040E48C /* Debug */,
+				A4CB844629CF9E7D0040E48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4CB844729CF9E7D0040E48C /* Build configuration list for PBXNativeTarget "SolorGram2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4CB844829CF9E7D0040E48C /* Debug */,
+				A4CB844929CF9E7D0040E48C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4CB841529CF9E7C0040E48C /* Project object */;
+}
